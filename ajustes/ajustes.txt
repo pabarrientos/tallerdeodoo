@@ -18,5 +18,4 @@ Usuarios/Administrador--->Mostrar características de contabilidad completas [x]
 Contabilidad
 ------------
 Localización Fiscal: Plan Contable Genérico Argentina para Responsables Inscriptos
-
-
+Multimoneda [x]

@@ -8,6 +8,7 @@ echo =============================================
 echo Instalando dependencias
 echo =============================================
 sudo apt-get install libreoffice-script-provider-python libreoffice-java-common openjdk-8-jre python3-genshi python3-cairo python3-lxml python3-cups 
+sudo apt install unoconv
 
 echo =============================================
 echo Instalando LibreOffice Standalone

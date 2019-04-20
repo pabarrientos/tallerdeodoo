@@ -1,0 +1,22 @@
+Preferencias de Usuario
+-----------------------
+Time Zone: America/Argentina/Tucmán
+Idioma: Español Argentino
+
+
+Compañía
+--------
+Moneda: ARS
+Localización: Argentina
+
+
+Ajustes
+-------
+Usuarios/Administrador--->Mostrar características de contabilidad completas [x]
+
+
+Contabilidad
+------------
+Localización Fiscal: Plan Contable Genérico Argentina para Responsables Inscriptos
+
+

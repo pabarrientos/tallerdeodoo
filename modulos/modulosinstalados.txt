@@ -1,0 +1,12 @@
+Aplicaciones
+------------
+
+Gestión de Facturas
+Gestión de Inventario
+Gestión de Ventas
+Gestión de Compras
+Aeroo Reports
+
+
+Modulos Adicionales
+-------------------

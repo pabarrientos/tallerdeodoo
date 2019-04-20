@@ -12,3 +12,5 @@ Modulos Adicionales
 -------------------
 
 Factura Electrónica Argentina
+Replenishment Cost
+Product Planned Price

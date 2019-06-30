@@ -1,5 +1,19 @@
 #!/bin/sh
 # Start/stop odoo
+### BEGIN INIT INFO
+# Provides:          odoo
+# Required-Start:    postgresql
+# Required-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: The main odoo process
+# Description:       The odoo process that receives HTTP requests
+#                    at port 8069
+#
+### END INIT INFO
+#
+# Author:       Pablo Barrientos <pabarrientos@hotmail.com>
+#
 
 PIDFILE=/var/run/odoo.pid
 

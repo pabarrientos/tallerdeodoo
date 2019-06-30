@@ -25,7 +25,7 @@ CMD=/home/odoo/odoo/11/start.sh
 OPTS=
 
 do_start() {
-    start-stop-daemon --start --background --user $RUN_AS --pidfile $PIDFILE --$
+    start-stop-daemon --start --background --user $RUN_AS --pidfile $PIDFILE --chuid $RUN_AS --startas $CMD -- $OPTS
 }
 
 do_stop() {

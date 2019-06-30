@@ -1,0 +1,40 @@
+#!/bin/sh
+# Start/stop odoo
+
+PIDFILE=/var/run/odoo.pid
+
+. /lib/lsb/init-functions
+
+NAME=odoo
+RUN_AS=`id -u odoo`
+CMD=/home/odoo/odoo/11/start.sh
+OPTS=
+
+do_start() {
+    start-stop-daemon --start --background --user $RUN_AS --pidfile $PIDFILE --$
+}
+
+do_stop() {
+    start-stop-daemon --stop --user $RUN_AS
+}
+
+case "$1" in
+start)
+    log_action_msg "Starting $NAME"
+    do_start
+        ;;
+stop)
+    log_action_msg "Stopping $NAME"
+    do_stop
+    ;;
+restart)
+    log_action_msg "Restarting $NAME"
+    do_stop
+    do_start
+    ;;
+*)
+    log_action_msg "Usage: /etc/init.d/odoo {start|stop|restart}"
+    exit 2
+    ;;
+esac
+exit 0

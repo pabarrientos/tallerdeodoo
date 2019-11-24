@@ -1,0 +1,6 @@
+cd /home/odoo/odoo/11
+mkdir ./sources/themes
+git clone -b 11.0 https://github.com/Openworx/backend_theme.git ./sources/themes
+
+Agregar el directorio themes a addons en odoo.conf
+/home/odoo/odoo/11/sources/themes
